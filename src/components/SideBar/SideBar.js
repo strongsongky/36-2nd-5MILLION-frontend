@@ -30,7 +30,7 @@ const SideBar = () => {
     KakaoRedirectHandler();
   };
 
-  // 삭제 구현 확인
+  // 삭제 구현 확인.
   const DeletedTicket = e => {
     fetch(`http://127.0.0.1:3031/account/class/${e.target.id}`, {
       method: 'DELETE',
