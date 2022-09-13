@@ -23,7 +23,7 @@ const MyAccount = ({ ticket, setShowMode, DeletedTicket }) => {
             <S.Container key={idx}>
               <S.BooklistWrapper>
                 <S.ClassList>
-                  <S.Location>예정된 수업 리스트</S.Location>
+                  <S.Location>예정된 수업</S.Location>
                   {/* 삭제 버튼 확인 */}
                   {/* <S.DelBtn id={id} onClick={DeletedTicket}>
                     취소
